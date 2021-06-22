@@ -1,0 +1,81 @@
+body {
+    background-color: antiquewhite;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: #000;
+    margin: 8px auto;
+}
+
+#img {
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+#pg {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.menu {
+    float: right;
+    top: 10px;
+    right: 30px;
+    background: white;
+    position: fixed;
+    margin-top: 0px;
+}
+
+.links {
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    font-size: 23px;
+    text-decoration: none;
+}
+
+#About {
+    padding: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.3;
+    margin: 25px auto;
+}
+
+.pa:hover {
+    color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: none;
+}
+
+#picture:hover {
+    transform: scale(0.9);
+}
+
+ul {
+    margin: 5;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    float: left;
+}
